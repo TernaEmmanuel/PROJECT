@@ -1,0 +1,215 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url();
+    background-size: cover;
+    background-position: fixed;
+    font-family: sans-serif;
+}
+h1{
+    margin-right: 20rem;
+    font-size: 4rem;
+    padding-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    
+}
+nav{
+    background: rgb(0,100,0);
+    text-align: center;
+    width: 100rem;
+}
+nav ul{
+    display: inline-flex;
+    list-style: none;
+   
+}
+nav ul li {
+    
+    margin: 15px;
+    padding: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav i{
+    margin-right: 8px;
+}
+nav ul li:hover {
+    background: #2bab0d;
+    border-radius: 4Spx;
+}
+.sub-menu-1{
+    display: none;
+}
+nav ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 1rem;
+    margin-left: -3rem;
+    font-style: italic;
+}
+nav ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+nav ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+nav ul li:hover .sub-menu-1 ul :last-child{
+    border-bottom: none;
+}
+nav ul li:hover .sub-menu-1 ul li a:hover{
+    color: yellowgreen;
+}
+header{
+    background-image: url('../Images/chi-ch-i-doc.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+    width: 100rem;
+    text-align: center;
+}
+.section-1{
+    text-align: center;
+    width: 100rem;
+    padding: 2rem;
+    
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(3);
+    margin-left: 20rem;
+    padding-bottom: 4rem;
+    }
+    .grid-item{
+        background-size: cover;
+        padding: 8rem;
+        border: 5px solid green;
+    }
+    .item1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url('../Images/layers\ chick.jpeg'); 
+    }
+    .item1:hover{
+        background-image: url('../Images/manure3.jpeg');
+    }
+    .item2{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2; 
+        background-image: url('../Images/Poultry-eggs.jpg');
+    }
+    .item2:hover{
+        background-image: url('../Images/chicks.jpeg');
+    }
+    .item3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3; 
+        background-image: url('../Images/meat.jpeg');
+    }
+    .item3:hover{
+        background-image: url('../Images/chicksss.jpeg');
+    }
+    .item4{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3; 
+        background-image: url('../Images/Broiler-Chickens.jpg');
+    }
+    .item4:hover{
+        background-image: url('../Images/Layer3.jpg');
+    }
+    .item5{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4; 
+        background-image: url('../Images/manure3.jpeg');
+        padding: 10rem;
+    }
+    .item5:hover{
+        background-image: url('../Images/mt1.png');
+    }
+    h2{
+        color: #2bab0d;
+        padding-bottom:2rem ;
+    }
+    footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color:  rgb(0,100,0);
+        height: 7rem;
+    }
+    .footer-p{
+        color: white;
+        
+    
+    }
+    p{
+        margin: 1rem;
+    }
+    h2{
+        color: #2bab0d;
+        padding-bottom:2rem ;
+    }
+    footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color:  rgb(0,100,0);
+        height: 7rem;
+    }
+    .footer-p{
+        color: white;
+        
+    
+    }
+    p{
+        margin: 1rem;
+    }
+    h2{
+        color: #2bab0d;
+        padding-bottom:2rem ;
+    }
+    footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color:  rgb(0,100,0);
+        height: 7rem;
+    }
+    .footer-p{
+        color: white;
+        
+    
+    }
+    p{
+        margin: 1rem;
+    }
+        
+            
+        
+        
+    
+    
